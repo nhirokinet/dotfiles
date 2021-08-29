@@ -7,3 +7,4 @@ set encoding=utf-8
 set ts=8
 set sw=8
 set background=dark
+filetype plugin indent on
