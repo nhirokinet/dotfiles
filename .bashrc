@@ -126,7 +126,8 @@ shopt -s checkwinsize
 
 umask 0022
 
-if uname -a | grep -i microsoft then
+if uname -a | grep -i microsoft >/dev/null
+then
     # https://gist.github.com/copperlight/e10eaa40d6f3bb9e1e6e6b1dd8ba0a8d5
     # ssh-agent configuration
     if [ -z "$(pgrep ssh-agent)" ]; then
