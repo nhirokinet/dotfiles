@@ -117,8 +117,9 @@ if ! shopt -oq posix; then
 fi
 
 # ここから追記
-
-export PS1="\[\e[1;32m\][\u@\h \w \t]\\$\[\e[00m\] "
+# server 34
+# desktop 35
+export PS1="\[\e[1;35m\][\u@\h \w \t]\\$\[\e[00m\] "
 # export PROMPT_DIRTRIM=1
 export EDITOR=vim
 
